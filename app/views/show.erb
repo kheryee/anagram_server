@@ -1,0 +1,5 @@
+<p>Showing a list of anagrams for: "<%= @word %>"</p>
+
+<% @array.each_with_index do |word, index| %>
+  <p><%= index+1%>. <%= word %></p>
+<% end %>
